@@ -1,5 +1,8 @@
 module.exports = {
   arrowParens: 'avoid',
-  singleQuote: true,
+  bracketSameLine: true,
+  bracketSpacing: true,
+  singleQuote: true, // Standard practice in React Native
   trailingComma: 'all',
+  semi: true,
 };

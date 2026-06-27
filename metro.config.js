@@ -1,3 +1,5 @@
+const { withStorybook } = require('@storybook/react-native/withStorybook');
+
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
 
 /**
@@ -8,4 +10,6 @@ const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
  */
 const config = {};
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+module.exports = withStorybook(
+  mergeConfig(getDefaultConfig(__dirname), config),
+);
