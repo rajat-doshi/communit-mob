@@ -15,7 +15,7 @@ function App() {
     <TamaguiProvider defaultTheme={'light'} config={config}>
       <StatusBar />
       <View>
-        <Text>Hellodfgdfgdfgd</Text>
+        <Text>This is firt mobile app</Text>
       </View>
     </TamaguiProvider>
   );
